@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+header {
+    margin-top: 1.7rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+}
+
+.pdfcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.pdfcontainer .pdfItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.3rem;
+}
+
+.pdfDoc {
+    height: 75vh;
+    width: 85vw;
+    border: 2px solid #000;
+}
+
+.pdfItem p  {
+    margin-top: 1rem;
+    font-size: 22px;
+    color: #000;
+    font-weight: 550;
+}
+
+@media screen and (max-width: 768px) {
+
+    .heading {
+        font-size: 27px;
+    }
+
+    .pdfItem p  {
+        font-size: 16px;
+    }
+
+}
+
+
+.privacyContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1.5rem;
+    font-size: 16px;
+    color: #000;
+}
+
+.privacyContainer p {
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 0.7rem;
+}
+
+.privacyContainer h6 {
+    margin-top: 1rem;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
