@@ -34,7 +34,7 @@ header {
 }
 
 .pdfDoc {
-    height: 75vh;
+    height: 75dvh;
     width: 85vw;
     border: 2px solid #000;
 }
