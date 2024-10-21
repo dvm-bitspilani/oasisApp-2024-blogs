@@ -34,7 +34,7 @@ header {
 }
 
 .pdfDoc {
-    height: 75dvh;
+    height: 75lvh;
     width: 85vw;
     border: 2px solid #000;
 }
@@ -53,7 +53,7 @@ header {
     }
 
     .pdfItem p  {
-        font-size: 16px;
+        font-size: 18px;
     }
 
 }
